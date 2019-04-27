@@ -101,13 +101,17 @@ hr {
 nav {
     background-color: #ffff00;
 }
-.nav-link {
+.navbar-light .navbar-nav .active > .nav-link {
     font-family: 'Roboto Slab', serif;
     font-size: 1.2em;
     color: #cc0;
 }
-.nav-link:focus, .nav-link:hover {
+.navbar-light .navbar-nav .active > .nav-link:hover, .nav-link:focus {
     color: #333;
+}
+.navbar-text {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
 }
 
 @media (min-width: 1500px)
