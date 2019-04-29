@@ -104,10 +104,11 @@ nav {
 .navbar-light .navbar-nav .active > .nav-link {
     font-family: 'Roboto Slab', serif;
     font-size: 1.2em;
-    color: #cc0;
+    color: #333;
 }
 .navbar-light .navbar-nav .active > .nav-link:hover, .nav-link:focus {
     color: #333;
+    background-color: #fff;
 }
 .navbar-text {
     font-family: 'Roboto Slab', serif;
@@ -125,13 +126,30 @@ nav {
         font-size: 8em;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
-        text-align: center;
+        text-align: right;
         padding-top: 100px;
         color: #fff;
         text-shadow: 0px 0px 10px #333;
     }
-    .article-link {
-        padding: 50px 30px 50px 0;
+    #articles-preview {
+        margin-bottom: 120px;
     }
-
+    #articles-preview h1 {
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .article-link {
+        padding: 30px 30px 30px 0;
+    }
+    .article-link a {
+        text-decoration: none;
+        position: relative;
+        background-color: rgba(255, 255, 0, .5);
+    }
+    .article-link a:hover {
+        background-color: rgba(255, 255, 0, 0.2);
+    }
+    #articles-preview h6 {
+        margin-top: 10px;
+    }
 }
