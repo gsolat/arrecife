@@ -101,6 +101,9 @@ hr {
 nav {
     background-color: #fdf202;
 }
+.navbar {
+    padding: 0;
+}
 .navbar-light .navbar-nav .active > .nav-link {
     font-family: 'Roboto Slab', serif;
     font-size: 1.2em;
@@ -117,6 +120,7 @@ nav {
 
 @media (min-width: 1500px) {
     #landing {
+        margin-top: 30px;
         height: 400px;
         background-image: url('../img/portada.png');
         background-position: center center;
@@ -161,9 +165,59 @@ nav {
         margin-bottom: 200px;
     }
     #landing-art-1 {
-        height: 400px;
+        margin-top: 30px;
+        height: 450px;
+        background-image: url('../img/art/cover-art-01.jpg');
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    #landing-art-2 {
+        margin-top: 30px;
+        height: 450px;
+        background-image: url('../img/art/cover-art-02.jpg');
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    #landing-art-3 {
+        margin-top: 30px;
+        height: 450px;
         background-image: url('../img/art/cover-art-03.jpg');
-        background-position: center center;
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    #landing-art-4 {
+        margin-top: 30px;
+        height: 450px;
+        background-image: url('../img/art/cover-art-04.jpg');
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    #landing-art-5 {
+        margin-top: 30px;
+        height: 450px;
+        background-image: url('../img/art/cover-art-05.jpg');
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    #landing-art-6 {
+        margin-top: 30px;
+        height: 450px;
+        background-image: url('../img/art/cover-art-06.jpg');
+        background-position: top center;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    #landing-art-7 {
+        margin-top: 30px;
+        height: 450px;
+        background-image: url('../img/art/cover-art-07.jpg');
+        background-position: top center;
+        background-attachment: fixed;
         background-size: contain;
     }
     #articles #art-1 {
