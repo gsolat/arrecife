@@ -148,7 +148,7 @@ nav {
     .article-link a {
         text-decoration: none;
         position: relative;
-        background:#f1f1f1;
+        background: #f1f1f1;
         color: #333;
     }
     .article-link a:hover {
@@ -167,58 +167,72 @@ nav {
     #landing-art-1 {
         margin-top: 30px;
         height: 450px;
-        background-image: url('../img/art/cover-art-01.jpg');
+        background-image: url('../img/art/cover-art-01.svg');
         background-position: top center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-color: #fdf202;
+        background-size: 25%;
     }
     #landing-art-2 {
         margin-top: 30px;
         height: 450px;
-        background-image: url('../img/art/cover-art-02.jpg');
+        background-image: url('../img/art/cover-art-02.svg');
         background-position: top center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-color: #fdf202;
+        background-size: 25%;
     }
     #landing-art-3 {
         margin-top: 30px;
         height: 450px;
-        background-image: url('../img/art/cover-art-03.jpg');
+        background-image: url('../img/art/cover-art-03.svg');
         background-position: top center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-color: #fdf202;
+        background-size: 25%;
     }
     #landing-art-4 {
         margin-top: 30px;
         height: 450px;
-        background-image: url('../img/art/cover-art-04.jpg');
+        background-image: url('../img/art/cover-art-04.svg');
         background-position: top center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-color: #fdf202;
+        background-size: 25%;
     }
     #landing-art-5 {
         margin-top: 30px;
         height: 450px;
-        background-image: url('../img/art/cover-art-05.jpg');
+        background-image: url('../img/art/cover-art-05.svg');
         background-position: top center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-color: #fdf202;
+        background-size: 30%;
     }
     #landing-art-6 {
         margin-top: 30px;
         height: 450px;
-        background-image: url('../img/art/cover-art-06.jpg');
+        background-image: url('../img/art/cover-art-06.svg');
         background-position: top center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-color: #fdf202;
+        background-size: 27%;
     }
     #landing-art-7 {
         margin-top: 30px;
         height: 450px;
-        background-image: url('../img/art/cover-art-07.jpg');
+        background-image: url('../img/art/cover-art-07.svg');
         background-position: top center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: contain;
+        background-color: #fdf202;
+        background-size: 25%;
     }
     #articles #art-1 {
         margin-top: 30px; 
