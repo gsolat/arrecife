@@ -268,3 +268,943 @@ nav {
         background-size: 25%;
     }
 }
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+    #landing {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/portada.png');
+        background-position: center center;
+        background-size: cover;
+    }
+    #landing .number p {
+        font-size: 8em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        text-align: right;
+        padding-top: 100px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333;
+    }
+    #articles-preview {
+        margin-bottom: 120px;
+    }
+    #articles-preview h1 {
+        font-size: 1.8em;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .article-link {
+        padding: 30px 30px 30px 0;
+    }
+    .article-link a {
+        text-decoration: none;
+        position: relative;
+        background: #f1f1f1;
+        color: #333;
+    }
+    .article-link a:hover {
+        background:#fdf202;
+        color: #333;
+    }
+    #articles-preview h6 {
+        margin-top: 10px;
+    }
+
+    /* articles */
+
+    #articles {
+        margin-bottom: 200px;
+    }
+    #articles a {
+        text-decoration: underline;
+    }
+    #articles ol {
+        text-indent: 0;
+    } 
+    #articles #art-1 {
+        margin-top: 30px; 
+    }
+    #articles h1 {
+        font-size: 3em;
+    }
+    #articles h1, h2, h6 {
+        margin: 30px 0;
+        line-height: 1.4;   
+    }
+    #articles h6 {
+        font-style: italic;
+    }
+    #articles p {
+        font-family: 'Noto serif', serif;
+        letter-spacing: .2px;
+    }
+    #articles blockquote {
+        margin: 10% 0 10% 15%;
+        font-size: 2em;
+        font-style: italic;
+        font-family: 'Noto Sans', serif;
+    }
+    #articles #cite {
+        font-size: .6em;
+    }
+    #landing-art-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-2 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-3 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-4 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-5 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-6 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-7 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #landing {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/portada.png');
+        background-position: center center;
+        background-size: cover;
+    }
+    #landing .number p {
+        font-size: 8em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        text-align: right;
+        padding-top: 100px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333;
+    }
+    #articles-preview {
+        margin-bottom: 120px;
+    }
+    #articles-preview h1 {
+        font-size: 1.5em;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .article-link {
+        padding: 30px 30px 30px 0;
+    }
+    .article-link a {
+        text-decoration: none;
+        position: relative;
+        background: #f1f1f1;
+        color: #333;
+    }
+    .article-link a:hover {
+        background:#fdf202;
+        color: #333;
+    }
+    #articles-preview h6 {
+        margin-top: 10px;
+    }
+
+    /* articles */
+
+    #articles {
+        margin-bottom: 200px;
+    }
+    #articles a {
+        text-decoration: underline;
+    }
+    #articles ol {
+        text-indent: 0;
+    } 
+    #articles #art-1 {
+        margin-top: 30px; 
+    }
+    #articles h1 {
+        font-size: 2.5em;
+    }
+    #articles h1, h2, h6 {
+        margin: 30px 0;
+        line-height: 1.4;   
+    }
+    #articles h6 {
+        font-style: italic;
+    }
+    #articles p {
+        font-family: 'Noto serif', serif;
+        letter-spacing: .2px;
+    }
+    #articles blockquote {
+        margin: 10% 0 10% 15%;
+        font-size: 1.5em;
+        font-style: italic;
+        font-family: 'Noto Sans', serif;
+    }
+    #articles #cite {
+        font-size: .6em;
+    }
+    #landing-art-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-2 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-3 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-4 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-5 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-6 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-06.svg');
+        background-position: top; center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-7 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #landing {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/portada.png');
+        background-position: center center;
+        background-size: cover;
+    }
+    #landing .number p {
+        font-size: 8em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        text-align: right;
+        padding-top: 100px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333;
+    }
+    #articles-preview {
+        margin-bottom: 120px;
+    }
+    #articles-preview h1 {
+        font-size: 1.5em;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .article-link {
+        padding: 30px 30px 0 0;
+    }
+    .article-link a {
+        text-decoration: none;
+        position: relative;
+        background: #f1f1f1;
+        color: #333;
+    }
+    .article-link a:hover {
+        background:#fdf202;
+        color: #333;
+    }
+    #articles-preview h6 {
+        margin-top: 10px;
+    }
+
+    /* articles */
+
+    #articles {
+        margin-bottom: 200px;
+    }
+    #articles a {
+        text-decoration: underline;
+    }
+    #articles ol {
+        text-indent: 0;
+    } 
+    #articles #art-1 {
+        margin-top: 30px; 
+    }
+    #articles h1 {
+        font-size: 2.3em;
+    }
+    #articles h2 {
+        font-size: 1.5em;
+    }
+    #articles h1, h2, h6 {
+        margin: 30px 0;
+        line-height: 1.4;   
+    }
+    #articles h6 {
+        font-style: italic;
+    }
+    #articles p {
+        font-size: .9em;
+        font-family: 'Noto serif', serif;
+        letter-spacing: .2px;
+    }
+    #articles blockquote {
+        margin: 10% 0 10% 15%;
+        font-size: 1.5em;
+        font-style: italic;
+        font-family: 'Noto Sans', serif;
+    }
+    #articles #cite {
+        font-size: .6em;
+    }
+    #landing-art-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-2 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-3 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-4 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-5 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 55%;
+    }
+    #landing-art-6 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-06.svg');
+        background-position: top; center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-7 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #landing {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/portada.png');
+        background-position: center center;
+        background-size: cover;
+    }
+    #landing .number p {
+        font-size: 8em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        text-align: right;
+        padding-top: 100px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333;
+    }
+    #articles-preview {
+        margin-bottom: 120px;
+    }
+    #articles-preview h1 {
+        font-size: 1.5em;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .article-link {
+        padding: 30px 30px 0 0;
+    }
+    .article-link a {
+        text-decoration: none;
+        position: relative;
+        background: #f1f1f1;
+        color: #333;
+    }
+    .article-link a:hover {
+        background:#fdf202;
+        color: #333;
+    }
+    #articles-preview h6 {
+        margin-top: 10px;
+    }
+
+    /* articles */
+
+    #articles {
+        margin-bottom: 200px;
+    }
+    #articles a {
+        text-decoration: underline;
+    }
+    #articles ol {
+        text-indent: 0;
+    } 
+    #articles #art-1 {
+        margin-top: 30px; 
+    }
+    #articles h1 {
+        font-size: 2em;
+    }
+    #articles h2 {
+        font-size: 1.2em;
+    }
+    #articles h1, h2, h6 {
+        margin: 30px 0;
+        line-height: 1.4;   
+    }
+    #articles h6 {
+        font-style: italic;
+    }
+    #articles p {
+        font-size: .9em;
+        font-family: 'Noto serif', serif;
+        letter-spacing: .2px;
+    }
+    #articles blockquote {
+        margin: 10% 0 10% 15%;
+        font-size: 1.2em;
+        font-style: italic;
+        font-family: 'Noto Sans', serif;
+    }
+    #articles #cite {
+        font-size: .6em;
+    }
+    #landing-art-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 60%;
+    }
+    #landing-art-2 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 60%;
+    }
+    #landing-art-3 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 60%;
+    }
+    #landing-art-4 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 60%;
+    }
+    #landing-art-5 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 75%;
+    }
+    #landing-art-6 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-06.svg');
+        background-position: top; center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 60%;
+    }
+    #landing-art-7 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 60%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+    nav .img-fluid {
+        max-width: 130px;
+    }
+    .navbar-light .navbar-nav .active > .nav-link {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1em;
+        color: #333;
+    }
+    #landing {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/portada.png');
+        background-position: center center;
+        background-size: cover;
+    }
+    #landing .number p {
+        font-size: 8em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        text-align: right;
+        padding-top: 100px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333;
+    }
+    #articles-preview {
+        margin-bottom: 120px;
+    }
+    #articles-preview h1 {
+        font-size: 1.2em;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .article-link {
+        padding: 20px 30px 0 0;
+    }
+    .article-link a {
+        text-decoration: none;
+        position: relative;
+        background: #f1f1f1;
+        color: #333;
+    }
+    .article-link a:hover {
+        background:#fdf202;
+        color: #333;
+    }
+    #articles-preview h6 {
+        margin-top: 10px;
+    }
+
+    /* articles */
+
+    #articles {
+        margin-bottom: 200px;
+    }
+    #articles a {
+        text-decoration: underline;
+    }
+    #articles ol {
+        text-indent: 0;
+    } 
+    #articles #art-1 {
+        margin-top: 0px; 
+    }
+    #articles h1 {
+        font-size: 1.6em;
+    }
+    #articles h2 {
+        font-size: 1.1em;
+    }
+    #articles h1, h2, h6 {
+        margin: 30px 0;
+        line-height: 1.4;   
+    }
+    #articles h6 {
+        font-style: italic;
+        font-size: .8em;
+    }
+    #articles p {
+        font-size: .8em;
+        font-family: 'Noto serif', serif;
+        letter-spacing: .2px;
+    }
+    #articles blockquote {
+        margin: 10% 0 10% 15%;
+        font-size: 1.1em;
+        font-style: italic;
+        font-family: 'Noto Sans', serif;
+    }
+    #articles #cite {
+        font-size: .6em;
+    }
+    #landing-art-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 90%;
+    }
+    #landing-art-2 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 90%;
+    }
+    #landing-art-3 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 90%;
+    }
+    #landing-art-4 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 90%;
+    }
+    #landing-art-5 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 120%;
+    }
+    #landing-art-6 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-06.svg');
+        background-position: top; center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 90%;
+    }
+    #landing-art-7 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 90%;
+    }
+}
+
+@media (max-width: 374px) {
+    nav .img-fluid {
+        max-width: 130px;
+    }
+    .navbar-light .navbar-nav .active > .nav-link {
+        font-family: 'Roboto Slab', serif;
+        font-size: 1em;
+        color: #333;
+    }
+    #landing {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/portada.png');
+        background-position: center center;
+        background-size: cover;
+    }
+    #landing .number p {
+        font-size: 8em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        text-align: right;
+        padding-top: 100px;
+        color: #fff;
+        text-shadow: 0px 0px 10px #333;
+    }
+    #articles-preview {
+        margin-bottom: 120px;
+    }
+    #articles-preview h1 {
+        font-size: 1.2em;
+        line-height: 1.4;
+        font-weight: bold;
+    }
+    .article-link {
+        padding: 20px 30px 10px 0;
+    }
+    .article-link a {
+        text-decoration: none;
+        position: relative;
+        background: #f1f1f1;
+        color: #333;
+    }
+    .article-link a:hover {
+        background:#fdf202;
+        color: #333;
+    }
+    #articles-preview h6 {
+        margin-top: 10px;
+    }
+
+    /* articles */
+
+    #articles {
+        margin-bottom: 200px;
+    }
+    #articles a {
+        text-decoration: underline;
+    }
+    #articles ol {
+        text-indent: 0;
+    } 
+    #articles #art-1 {
+        margin-top: 0px; 
+    }
+    #articles h1 {
+        font-size: 1.6em;
+    }
+    #articles h2 {
+        font-size: 1.1em;
+    }
+    #articles h1, h2, h6 {
+        margin: 30px 0;
+        line-height: 1.4;   
+    }
+    #articles h6 {
+        font-style: italic;
+        font-size: .8em;
+    }
+    #articles p {
+        font-size: .8em;
+        font-family: 'Noto serif', serif;
+        letter-spacing: .2px;
+    }
+    #articles blockquote {
+        margin: 10% 0 10% 15%;
+        font-size: 1.1em;
+        font-style: italic;
+        font-family: 'Noto Sans', serif;
+    }
+    #articles #cite {
+        font-size: .6em;
+    }
+    #landing-art-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-2 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-3 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-4 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-5 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 130%;
+    }
+    #landing-art-6 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-06.svg');
+        background-position: top; center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-7 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../img/art/cover-art-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+}
