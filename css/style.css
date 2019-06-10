@@ -128,13 +128,13 @@ nav {
         background-size: cover;
     }
     #landing .number p {
-        font-size: 8em;
+        font-size: 7em;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
-        text-align: right;
-        padding-top: 100px;
-        color: #fff;
-        text-shadow: 0px 0px 10px #333;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -267,6 +267,12 @@ nav {
         background-color: #fdf202;
         background-size: 25%;
     }
+
+    /* about */
+
+    #articles .about {
+        margin-top: 80px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
@@ -278,13 +284,13 @@ nav {
         background-size: cover;
     }
     #landing .number p {
-        font-size: 8em;
+        font-size: 7em;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
-        text-align: right;
-        padding-top: 100px;
-        color: #fff;
-        text-shadow: 0px 0px 10px #333;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -418,6 +424,11 @@ nav {
         background-color: #fdf202;
         background-size: 30%;
     }
+    /* about */
+
+    #articles .about {
+        margin-top: 80px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -429,13 +440,13 @@ nav {
         background-size: cover;
     }
     #landing .number p {
-        font-size: 8em;
+        font-size: 7em;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
-        text-align: right;
-        padding-top: 100px;
-        color: #fff;
-        text-shadow: 0px 0px 10px #333;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -569,6 +580,49 @@ nav {
         background-color: #fdf202;
         background-size: 35%;
     }
+
+    /* about */
+
+    #articles .about {
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 991px) {
+    #landing .number p {
+        font-size: 5.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-left: 13%;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
+}
+@media (min-width: 800px) and (max-width: 899px) {
+    #landing .number p {
+        font-size: 5.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-left: 10%;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
+}
+@media (min-width: 768px) and (max-width: 799px) {
+    #landing .number p {
+        font-size: 5.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-left: 5%;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -578,15 +632,6 @@ nav {
         background-image: url('../img/portada.png');
         background-position: center center;
         background-size: cover;
-    }
-    #landing .number p {
-        font-size: 8em;
-        font-family: 'Roboto Slab', serif;
-        font-weight: bold;
-        text-align: right;
-        padding-top: 100px;
-        color: #fff;
-        text-shadow: 0px 0px 10px #333;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -724,6 +769,11 @@ nav {
         background-color: #fdf202;
         background-size: 45%;
     }
+    /* about */
+
+    #articles .about {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -735,13 +785,13 @@ nav {
         background-size: cover;
     }
     #landing .number p {
-        font-size: 8em;
+        font-size: 6.5em;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
-        text-align: right;
-        padding-top: 100px;
-        color: #fff;
-        text-shadow: 0px 0px 10px #333;
+        line-height: 1.5;
+        padding: 10px 20px 0px 20px;
+        color: #333;
+        background:#fdf202;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -879,6 +929,11 @@ nav {
         background-color: #fdf202;
         background-size: 60%;
     }
+    /* about */
+
+    #articles .about {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width: 375px) and (max-width: 575px) {
@@ -898,13 +953,13 @@ nav {
         background-size: cover;
     }
     #landing .number p {
-        font-size: 8em;
+        font-size: 3.1em;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
-        text-align: right;
-        padding-top: 100px;
-        color: #fff;
-        text-shadow: 0px 0px 10px #333;
+        line-height: 1.5;
+        padding: 10px 20px 0px 20px;
+        color: #333;
+        background:#fdf202;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -1043,6 +1098,12 @@ nav {
         background-color: #fdf202;
         background-size: 90%;
     }
+
+    /* about */
+
+    #articles .about {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 374px) {
@@ -1062,13 +1123,13 @@ nav {
         background-size: cover;
     }
     #landing .number p {
-        font-size: 8em;
+        font-size: 3.1em;
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
-        text-align: right;
-        padding-top: 100px;
-        color: #fff;
-        text-shadow: 0px 0px 10px #333;
+        line-height: 1.5;
+        padding: 10px 20px 0px 20px;
+        color: #333;
+        background:#fdf202;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -1206,5 +1267,11 @@ nav {
         background-attachment: fixed;
         background-color: #fdf202;
         background-size: 100%;
+    }
+
+    /* about */
+
+    #articles .about {
+        margin-top: 50px;
     }
 }
