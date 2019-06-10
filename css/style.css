@@ -1164,6 +1164,10 @@ nav {
     #articles .about .logos img {
         text-align: center;
     }
+    #articles .about .logos #logo-image {
+        margin-bottom: 50px;
+    }
+
 }
 
 @media (max-width: 374px) {
@@ -1340,5 +1344,8 @@ nav {
     #articles .about .logos p {
         text-align: center;
         font-size: .7em;
+    }
+    #articles .about .logos #logo-image {
+        margin-bottom: 30px;
     }
 }
