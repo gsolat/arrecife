@@ -1333,13 +1333,13 @@ nav {
     /* about */
 
     #articles .about {
-        text-align: center;
         margin-top: 80px;
     }
     #articles .about .logos {
         margin-top: 50px;
     }
     #articles .about .logos p {
+        text-align: center;
         font-size: .7em;
     }
     #articles .about .logos img {
