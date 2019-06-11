@@ -124,8 +124,9 @@ nav {
         margin-top: 30px;
         height: 400px;
         background-image: url('../img/portada.png');
-        background-position: center center;
-        background-size: cover;
+        background-position: top center;
+        background-size: contain;
+        background-attachment: fixed;
     }
     #landing .number p {
         font-size: 7em;
@@ -134,7 +135,7 @@ nav {
         line-height: 1.5;
         padding: 10px 15px 0px 15px;
         color: #333;
-        background:#fdf202;
+        background-color: #fdf202;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -290,8 +291,9 @@ nav {
         margin-top: 30px;
         height: 300px;
         background-image: url('../img/portada.png');
-        background-position: center center;
-        background-size: cover;
+        background-position: top center;
+        background-size: contain;
+        background-attachment: fixed;
     }
     #landing .number p {
         font-size: 7em;
@@ -456,8 +458,9 @@ nav {
         margin-top: 30px;
         height: 300px;
         background-image: url('../img/portada.png');
-        background-position: center center;
-        background-size: cover;
+        background-position: top center;
+        background-size: contain;
+        background-attachment: fixed;
     }
     #landing .number p {
         font-size: 7em;
@@ -660,8 +663,9 @@ nav {
         margin-top: 30px;
         height: 300px;
         background-image: url('../img/portada.png');
-        background-position: center center;
+        background-position: top center;
         background-size: cover;
+        background-attachment: fixed;
     }
     #articles-preview {
         margin-bottom: 120px;
@@ -821,8 +825,9 @@ nav {
         margin-top: 30px;
         height: 300px;
         background-image: url('../img/portada.png');
-        background-position: center center;
+        background-position: top center;
         background-size: cover;
+        background-attachment: fixed;
     }
     #landing .number p {
         font-size: 6.5em;
@@ -999,8 +1004,9 @@ nav {
         margin-top: 30px;
         height: 300px;
         background-image: url('../img/portada.png');
-        background-position: center center;
+        background-position: top center;
         background-size: cover;
+        background-attachment: fixed;
     }
     #landing .number p {
         font-size: 3.1em;
@@ -1183,8 +1189,9 @@ nav {
         margin-top: 30px;
         height: 300px;
         background-image: url('../img/portada.png');
-        background-position: center center;
+        background-position: top center;
         background-size: cover;
+        background-attachment: fixed;
     }
     #landing .number p {
         font-size: 3.1em;
