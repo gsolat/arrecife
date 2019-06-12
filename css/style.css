@@ -138,7 +138,7 @@ nav {
         background-color: #fdf202;
     }
     #articles-preview {
-        margin-bottom: 100px;
+        margin: 100px 0;
     }
     #articles-preview h1 {
         line-height: 1.4;
@@ -275,7 +275,7 @@ nav {
         margin-top: 80px;
     }
     #articles .about .logos {
-        margin: 50px 0;
+        margin-top: 50px;
     }
     #articles .about .logos .about #logo-image {
         text-align: center;
@@ -308,7 +308,7 @@ nav {
         background:#fdf202;
     }
     #articles-preview {
-        margin-bottom: 80px;
+        margin: 80px 0;
     }
     #articles-preview h1 {
         font-size: 1.8em;
@@ -475,7 +475,7 @@ nav {
         background:#fdf202;
     }
     #articles-preview {
-        margin-bottom: 70px;
+        margin: 70px 0;
     }
     #articles-preview h1 {
         font-size: 1.5em;
@@ -671,7 +671,7 @@ nav {
         background-attachment: fixed;
     }
     #articles-preview {
-        margin-bottom: 80px;
+        margin: 80px 0;
     }
     #articles-preview h1 {
         font-size: 1.5em;
@@ -842,7 +842,7 @@ nav {
         background:#fdf202;
     }
     #articles-preview {
-        margin-bottom: 80px;
+        margin: 80px 0;
     }
     #articles-preview h1 {
         font-size: 1.5em;
@@ -1021,7 +1021,7 @@ nav {
         background:#fdf202;
     }
     #articles-preview {
-        margin-bottom: 40px;
+        margin: 40px 0;
     }
     #articles-preview h1 {
         font-size: 1.2em;
@@ -1206,7 +1206,7 @@ nav {
         background:#fdf202;
     }
     #articles-preview {
-        margin-bottom: 40px;
+        margin: 20px 0;
     }
     #articles-preview h1 {
         font-size: 1.2em;
