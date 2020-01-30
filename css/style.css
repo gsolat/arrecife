@@ -1448,7 +1448,7 @@ hr {
         background-image: url('../img/call2020/asset-6.png');
         background-repeat: no-repeat;
         background-size: 90%;
-        background-position: center 70%;
+        background-position: center 30%;
         background-color: #5be5f6;
     }
     #articles-call2020 p {
@@ -1483,9 +1483,9 @@ hr {
     }
     #landing-art-call2020 {
         /* margin-top: 30px; */
-        height: 600px;
+        height: 700px;
         background-image: url('../img/call2020/asset-5.png');
-        background-position: center 60%;
+        background-position: center 50%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-color: #fdf202;
