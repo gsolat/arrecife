@@ -99,16 +99,15 @@ hr {
     margin-top: 0;
     width: inherit;
 }
-nav {
-    background-color: #fdf202;
-}
-.navbar {
-    padding: 0;
-}
+
+/* --- */
+
+
+
 .navbar-light .navbar-nav .active > .nav-link {
     font-family: 'Roboto Slab', serif;
-    /* font-size: 1.2em; */
-    margin-right: .5rem;
+    padding-left: 12px;
+    padding-right: 12px;
     color: #333;
 }
 .navbar-light .navbar-nav .active > .nav-link:hover, .nav-link:focus {
@@ -120,6 +119,68 @@ nav {
     font-size: 1.5em;
 }
 
+/* Nuevo */
+
+    .navbar {
+        padding: 0;
+        background-color: #fdf202;
+    }
+    .navbar .navbar-brand {
+        width: 160px;
+    }
+    .navbar .navbar-brand img {
+        margin-right: 10px;
+    }
+    .navbar .navbar-text {
+        font-weight: 100;
+        color: #333;
+    }
+    .nav-link {
+        font-weight: 100;
+    }
+    .bg-light {
+        background-color: #f2efe3 !important;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+        color: #000;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .navbar .navbar-text {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar .navbar-brand {
+        font-size: .9rem;
+    }
+    .navbar .navbar-brand img {
+        max-width: 100px;
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+    .navbar .nav-link {
+        font-size: .6em;
+    }
+    .nav {
+        margin-top: 100px;
+        margin-left: 160px;
+        margin-bottom: 100px;
+        flex-direction: column;
+        text-align: right;
+        height: auto;
+    }
+}
+
+/* --- */
 
 .issn {
     color: #fdf202;
@@ -135,7 +196,7 @@ nav {
 
 @media (min-width: 1500px) {
     #landing {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/portada.png');
         background-position: top center;
@@ -248,11 +309,12 @@ nav {
         font-style: italic;
         text-decoration: underline;
     }
-    #articles-call2020 #download-pdf {
-        
+    #articles-call2020 #download-pdf img {
+        margin-top: 10px;
+        max-width: 150px;
     }
     #landing-art-call2020 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 700px;
         background-image: url('../img/call2020/asset-5.png');
         background-position: center 30%;
@@ -265,7 +327,7 @@ nav {
     /* ------- End call 2020 ------ */
 
     #landing-art-1 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/art/cover-art-01.svg');
         background-position: top center;
@@ -275,7 +337,7 @@ nav {
         background-size: 25%;
     }
     #landing-art-2 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/art/cover-art-02.svg');
         background-position: top center;
@@ -285,7 +347,7 @@ nav {
         background-size: 25%;
     }
     #landing-art-3 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/art/cover-art-03.svg');
         background-position: top center;
@@ -295,7 +357,7 @@ nav {
         background-size: 25%;
     }
     #landing-art-4 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/art/cover-art-04.svg');
         background-position: top center;
@@ -305,7 +367,7 @@ nav {
         background-size: 25%;
     }
     #landing-art-5 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/art/cover-art-05.svg');
         background-position: top center;
@@ -315,7 +377,7 @@ nav {
         background-size: 30%;
     }
     #landing-art-6 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/art/cover-art-06.svg');
         background-position: top center;
@@ -325,7 +387,7 @@ nav {
         background-size: 27%;
     }
     #landing-art-7 {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 450px;
         background-image: url('../img/art/cover-art-07.svg');
         background-position: top center;
@@ -357,7 +419,7 @@ nav {
 
 @media (min-width: 1200px) and (max-width: 1499px) {
     #landing {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 400px;
         background-image: url('../img/portada.png');
         background-position: top center;
@@ -435,9 +497,62 @@ nav {
     #articles #cite {
         font-size: .6em;
     }
+
+    /* ------- Start call 2020 ------ */
+
+    #articles-call2020 {
+        height: auto;
+        padding-bottom: 150px;
+        padding-top: 50px;
+        background-image: url('../img/call2020/asset-6.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center 70%;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 p {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 ul {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 li {
+        font-weight: bold;
+        list-style-type: none;
+        border-bottom: 6px solid #fdf202;
+    }
+    #articles-call2020 h6 {
+        text-align: center;
+        font-size: 1.1em;
+        padding: 10px;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 a {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #articles-call2020 #download-pdf img {
+        margin-top: 10px;
+        max-width: 150px;
+    }
+    #landing-art-call2020 {
+        /* margin-top: 30px; */
+        height: 700px;
+        background-image: url('../img/call2020/asset-5.png');
+        background-position: center 40%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+
+    /* ------- End call 2020 ------ */
+
     #landing-art-1 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-01.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -446,8 +561,8 @@ nav {
         background-size: 30%;
     }
     #landing-art-2 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-02.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -456,8 +571,8 @@ nav {
         background-size: 30%;
     }
     #landing-art-3 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-03.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -466,8 +581,8 @@ nav {
         background-size: 30%;
     }
     #landing-art-4 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-04.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -476,8 +591,8 @@ nav {
         background-size: 30%;
     }
     #landing-art-5 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-05.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -486,8 +601,8 @@ nav {
         background-size: 40%;
     }
     #landing-art-6 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-06.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -496,8 +611,8 @@ nav {
         background-size: 30%;
     }
     #landing-art-7 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        /* height: 330px; */
         background-image: url('../img/art/cover-art-07.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -524,7 +639,7 @@ nav {
 
 @media (min-width: 992px) and (max-width: 1199px) {
     #landing {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 380px;
         background-image: url('../img/portada.png');
         background-position: top center;
@@ -602,9 +717,65 @@ nav {
     #articles #cite {
         font-size: .6em;
     }
+
+    /* ------- Start call 2020 ------ */
+
+    #articles-call2020 {
+        height: auto;
+        padding-bottom: 150px;
+        padding-top: 50px;
+        background-image: url('../img/call2020/asset-6.png');
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center 70%;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 p {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 ul {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 li {
+        font-weight: bold;
+        list-style-type: none;
+        border-bottom: 6px solid #fdf202;
+    }
+    #articles-call2020 h6 {
+        text-align: center;
+        font-size: .95em;
+        padding: 10px;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 a {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #articles-call2020 #download-pdf img {
+        margin-top: 0px;
+        max-width: 150px;
+    }
+    #articles-call2020 h5 {
+        font-size: .9em;
+    }
+    #landing-art-call2020 {
+        /* margin-top: 30px; */
+        height: 600px;
+        background-image: url('../img/call2020/asset-5.png');
+        background-position: center 40%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+
+    /* ------- End call 2020 ------ */
+
     #landing-art-1 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-01.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -613,8 +784,8 @@ nav {
         background-size: 35%;
     }
     #landing-art-2 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-02.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -623,8 +794,8 @@ nav {
         background-size: 35%;
     }
     #landing-art-3 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-03.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -633,8 +804,8 @@ nav {
         background-size: 35%;
     }
     #landing-art-4 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-04.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -643,8 +814,8 @@ nav {
         background-size: 35%;
     }
     #landing-art-5 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-05.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -653,8 +824,8 @@ nav {
         background-size: 45%;
     }
     #landing-art-6 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-06.svg');
         background-position: top; center;
         background-repeat: no-repeat;
@@ -663,8 +834,8 @@ nav {
         background-size: 35%;
     }
     #landing-art-7 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-07.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -702,6 +873,7 @@ nav {
         background:#fdf202;
     }
 }
+
 @media (min-width: 800px) and (max-width: 899px) {
     #landing .number p {
         font-size: 5.5em;
@@ -714,6 +886,7 @@ nav {
         background:#fdf202;
     }
 }
+
 @media (min-width: 768px) and (max-width: 799px) {
     #landing .number p {
         font-size: 5.5em;
@@ -729,7 +902,7 @@ nav {
 
 @media (min-width: 768px) and (max-width: 991px) {
     #landing {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 350px;
         background-image: url('../img/portada-2.png');
         background-position: top center;
@@ -802,9 +975,65 @@ nav {
     #articles #cite {
         font-size: .6em;
     }
-    #landing-art-1 {
+
+    /* ------- Start call 2020 ------ */
+
+    #articles-call2020 {
+        height: auto;
+        padding-bottom: 150px;
+        padding-top: 50px;
+        background-image: url('../img/call2020/asset-6.png');
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center 70%;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 p {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 ul {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 li {
+        font-weight: bold;
+        list-style-type: none;
+        border-bottom: 6px solid #fdf202;
+    }
+    #articles-call2020 h6 {
+        text-align: center;
+        font-size: .95em;
+        padding: 10px;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 a {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #articles-call2020 #download-pdf img {
+        margin-top: 0px;
+        max-width: 150px;
+    }
+    #articles-call2020 h5 {
+        font-size: .9em;
+    }
+    #landing-art-call2020 {
         margin-top: 30px;
-        height: 300px;
+        height: 600px;
+        background-image: url('../img/call2020/asset-5.png');
+        background-position: center 40%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+
+    /* ------- End call 2020 ------ */
+
+    #landing-art-1 {
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-01.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -813,8 +1042,8 @@ nav {
         background-size: 45%;
     }
     #landing-art-2 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-02.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -823,8 +1052,8 @@ nav {
         background-size: 45%;
     }
     #landing-art-3 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-03.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -833,8 +1062,8 @@ nav {
         background-size: 45%;
     }
     #landing-art-4 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-04.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -843,8 +1072,8 @@ nav {
         background-size: 45%;
     }
     #landing-art-5 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-05.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -853,8 +1082,8 @@ nav {
         background-size: 55%;
     }
     #landing-art-6 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-06.svg');
         background-position: top; center;
         background-repeat: no-repeat;
@@ -863,8 +1092,8 @@ nav {
         background-size: 45%;
     }
     #landing-art-7 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-07.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -891,7 +1120,7 @@ nav {
 
 @media (min-width: 576px) and (max-width: 767px) {
     #landing {
-        margin-top: 30px;
+        /* margin-top: 30px; */
         height: 300px;
         background-image: url('../img/portada-2.png');
         background-position: top center;
@@ -973,9 +1202,65 @@ nav {
     #articles #cite {
         font-size: .6em;
     }
-    #landing-art-1 {
+
+    /* ------- Start call 2020 ------ */
+
+    #articles-call2020 {
+        height: auto;
+        padding-bottom: 150px;
+        padding-top: 50px;
+        background-image: url('../img/call2020/asset-6.png');
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center 70%;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 p {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 ul {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 li {
+        font-weight: bold;
+        list-style-type: none;
+        border-bottom: 6px solid #fdf202;
+    }
+    #articles-call2020 h6 {
+        text-align: center;
+        font-size: .95em;
+        padding: 10px;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 a {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #articles-call2020 #download-pdf img {
+        margin-top: 0px;
+        max-width: 150px;
+    }
+    #articles-call2020 h5 {
+        font-size: .9em;
+    }
+    #landing-art-call2020 {
         margin-top: 30px;
-        height: 300px;
+        height: 600px;
+        background-image: url('../img/call2020/asset-5.png');
+        background-position: center 60%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+
+    /* ------- End call 2020 ------ */
+
+    #landing-art-1 {
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-01.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -984,8 +1269,8 @@ nav {
         background-size: 60%;
     }
     #landing-art-2 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-02.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -994,8 +1279,8 @@ nav {
         background-size: 60%;
     }
     #landing-art-3 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-03.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -1004,8 +1289,8 @@ nav {
         background-size: 60%;
     }
     #landing-art-4 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-04.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -1014,8 +1299,8 @@ nav {
         background-size: 60%;
     }
     #landing-art-5 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-05.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -1024,8 +1309,8 @@ nav {
         background-size: 75%;
     }
     #landing-art-6 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-06.svg');
         background-position: top; center;
         background-repeat: no-repeat;
@@ -1034,8 +1319,8 @@ nav {
         background-size: 60%;
     }
     #landing-art-7 {
-        margin-top: 30px;
-        height: 300px;
+        /* margin-top: 30px; */
+        height: 330px;
         background-image: url('../img/art/cover-art-07.svg');
         background-position: top center;
         background-repeat: no-repeat;
@@ -1153,6 +1438,62 @@ nav {
     #articles #cite {
         font-size: .6em;
     }
+
+    /* ------- Start call 2020 ------ */
+
+    #articles-call2020 {
+        height: auto;
+        padding-bottom: 150px;
+        padding-top: 50px;
+        background-image: url('../img/call2020/asset-6.png');
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: center 70%;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 p {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 ul {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: .7em;
+    }
+    #articles-call2020 li {
+        font-weight: bold;
+        list-style-type: none;
+        border-bottom: 6px solid #fdf202;
+    }
+    #articles-call2020 h6 {
+        text-align: center;
+        font-size: .95em;
+        padding: 10px;
+        background-color: #5be5f6;
+    }
+    #articles-call2020 a {
+        font-style: italic;
+        text-decoration: underline;
+    }
+    #articles-call2020 #download-pdf img {
+        margin-top: 0px;
+        max-width: 150px;
+    }
+    #articles-call2020 h5 {
+        font-size: .9em;
+    }
+    #landing-art-call2020 {
+        /* margin-top: 30px; */
+        height: 600px;
+        background-image: url('../img/call2020/asset-5.png');
+        background-position: center 60%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+
+    /* ------- End call 2020 ------ */
+
     #landing-art-1 {
         margin-top: 30px;
         height: 300px;

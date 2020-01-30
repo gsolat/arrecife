@@ -19,20 +19,25 @@
   <div>
 
 <!-- nav -->
-        <nav class="navbar navbar-expand fixed-top navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/arrecife-brand.svg" width="170" height="auto" alt="" class="img-fluid">
-                </a>
-                <div>
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="acerca.html"> Acerca <span class="sr-only">(current)</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<nav class="container navbar navbar-expand-lg fixed-top navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/arrecife-brand.svg" width="170" height="auto" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+            <ul class="nav justify-content-start">
+                <li class="nav-item active">
+                    <a class="nav-link" href="convocatoria-2020.html" style="border-bottom: 5px solid #5be5f6;"> Convocatoria 2020 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acerca.html"> Acerca <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+</nav>
 
 <!-- cover -->
 
@@ -40,7 +45,7 @@
     <div class="col-lg-10 cover">
         <div class="number">
             <div class="container">
-                
+
             </div>
         </div>
     </div>
@@ -231,6 +236,7 @@
 
 <!-- JAVASCRIPT -->
 
+    <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
