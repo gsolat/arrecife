@@ -412,9 +412,9 @@ hr {
         text-align: center;
         font-size: .7em;
     }
-    #articles .about .logos img {
+    /* #articles .about .logos img {
         max-width: 200px;
-    }
+    } */
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
@@ -632,9 +632,9 @@ hr {
         text-align: center;
         font-size: .7em;
     }
-    #articles .about .logos img {
+    /* #articles .about .logos img {
         max-width: 200px;
-    }
+    } */
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -856,9 +856,9 @@ hr {
         text-align: center;
         font-size: .7em;
     }
-    #articles .about .logos img {
+    /* #articles .about .logos img {
         max-width: 200px;
-    }
+    } */
 }
 
 @media (min-width: 900px) and (max-width: 991px) {
@@ -1113,9 +1113,9 @@ hr {
         text-align: center;
         font-size: .7em;
     }
-    #articles .about .logos img {
+    /* #articles .about .logos img {
         max-width: 200px;
-    }
+    } */
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -1340,9 +1340,9 @@ hr {
         text-align: center;
         font-size: .7em;
     }
-    #articles .about .logos img {
+    /* #articles .about .logos img {
         max-width: 200px;
-    }
+    } */
 }
 
 @media (min-width: 375px) and (max-width: 575px) {
