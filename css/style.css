@@ -7,9 +7,9 @@ body {
     position: relative;
     width: 100%;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Noto Sans', sans-serif;
-    line-height: 2;
+    /* line-height: 2; */
 }
 
 h1,
@@ -119,6 +119,29 @@ hr {
     font-size: 1.5em;
 }
 
+#dropdownMenuButton {
+    color: #000;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: .6em;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 0;
+}
+
 /* Nuevo */
 
     .navbar {
@@ -171,9 +194,9 @@ hr {
         font-size: .6em;
     }
     .nav {
-        margin-top: 100px;
+        margin-top: 20px;
         margin-left: 160px;
-        margin-bottom: 100px;
+        margin-bottom: 0px;
         flex-direction: column;
         text-align: right;
         height: auto;
@@ -195,10 +218,27 @@ hr {
 
 
 @media (min-width: 1500px) {
+    #landing-1 {
+        /* margin-top: 30px; */
+        height: 450px;
+        background-image: url('../numero-1/portada.png');
+        background-position: top center;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    #landing-1 .number p {
+        font-size: 7em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background-color: #fdf202;
+    }
     #landing {
         /* margin-top: 30px; */
         height: 450px;
-        background-image: url('../img/portada.png');
+        background-image: url('../numero-2/portada.png');
         background-position: top center;
         background-size: contain;
         background-attachment: fixed;
@@ -212,6 +252,9 @@ hr {
         color: #333;
         background-color: #fdf202;
     }
+
+    /* ------ */
+
     #articles-preview {
         margin: 100px 0;
     }
@@ -251,24 +294,26 @@ hr {
         margin-top: 30px;
     }
     #articles h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
     #articles h1, h2, h6 {
         margin: 30px 0;
         line-height: 1.4;
     }
     #articles h6 {
-        font-style: italic;
+        /* font-style: italic; */
+        background-color: #fdf202;
     }
     #articles p {
-        font-family: 'Noto serif', serif;
-        letter-spacing: .2px;
+        font-family: 'Noto Sans', serif;
+        /* letter-spacing: .2px; */
     }
     #articles blockquote {
-        margin: 10% 0 10% 15%;
-        font-size: 2em;
+        margin: 5% 0 5% 15%;
+        font-size: 1.5em;
         font-style: italic;
-        font-family: 'Noto Sans', serif;
+        font-family: 'Noto Serif', serif;
+        background-color: #fdf202;
     }
     #articles #cite {
         font-size: .6em;
@@ -325,6 +370,121 @@ hr {
     }
 
     /* ------- End call 2020 ------ */
+
+    /* ------- Images Edicion 2 ------ */
+
+    #landing-art-1-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-2-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-3-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-4-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-5-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-6-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-7-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-8-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-08.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-9-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-09.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-10-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-10.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 35%;
+    }
+    #landing-art-11-2 {
+        /* margin-top: 30px; */
+        height: 550px;
+        background-image: url('../img/art-2/ilustra-cife-2021-11.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+
+    /* ------- Images Edicion 1 ------ */
 
     #landing-art-1 {
         /* margin-top: 30px; */
@@ -418,10 +578,27 @@ hr {
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
+    #landing-1 {
+        /* margin-top: 30px; */
+        height: 400px;
+        background-image: url('../numero-1/portada.png');
+        background-position: top center;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+    #landing-1 .number p {
+        font-size: 7em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing {
         /* margin-top: 30px; */
         height: 400px;
-        background-image: url('../img/portada.png');
+        background-image: url('../numero-2/portada.png');
         background-position: top center;
         background-size: contain;
         background-attachment: fixed;
@@ -435,6 +612,9 @@ hr {
         color: #333;
         background:#fdf202;
     }
+
+    /* ------ */
+
     #articles-preview {
         margin: 80px 0;
     }
@@ -550,11 +730,126 @@ hr {
 
     /* ------- End call 2020 ------ */
 
+    /* ------- Images Edicion 2 ------ */
+
+    #landing-art-1-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-2-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-3-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-4-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-5-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-6-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-7-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-8-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-08.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-9-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-09.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-10-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-10.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+    #landing-art-11-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-11.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 30%;
+    }
+
+    /* ------- Imagenes edicion 1 --------- */
+
     #landing-art-1 {
         /* margin-top: 30px; */
         height: 330px;
         background-image: url('../img/art/cover-art-01.svg');
-        background-position: top center;
+        background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-color: #fdf202;
@@ -638,10 +933,27 @@ hr {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    #landing-1 {
+        /* margin-top: 30px; */
+        height: 380px;
+        background-image: url('../numero-1/portada.png');
+        background-position: top center;
+        background-size: 120%;
+        background-attachment: fixed;
+    }
+    #landing-1 .number p {
+        font-size: 7em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing {
         /* margin-top: 30px; */
         height: 380px;
-        background-image: url('../img/portada.png');
+        background-image: url('../numero-2/portada.png');
         background-position: top center;
         background-size: 120%;
         background-attachment: fixed;
@@ -773,6 +1085,121 @@ hr {
 
     /* ------- End call 2020 ------ */
 
+    /* ------- Images Edicion 2 ------ */
+
+    #landing-art-1-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-2-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 45%;
+    }
+    #landing-art-3-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-4-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-5-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-6-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-7-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-8-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-08.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-9-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-09.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+    #landing-art-10-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-10.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 43%;
+    }
+    #landing-art-11-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-11.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 40%;
+    }
+
+    /* ------- Imagenes edicion 1 --------- */
+
     #landing-art-1 {
         /* margin-top: 30px; */
         height: 330px;
@@ -862,6 +1289,16 @@ hr {
 }
 
 @media (min-width: 900px) and (max-width: 991px) {
+    #landing-1 .number p {
+        font-size: 5.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-left: 13%;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing .number p {
         font-size: 5.5em;
         font-family: 'Roboto Slab', serif;
@@ -875,6 +1312,16 @@ hr {
 }
 
 @media (min-width: 800px) and (max-width: 899px) {
+    #landing-1 .number p {
+        font-size: 5.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-left: 10%;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing .number p {
         font-size: 5.5em;
         font-family: 'Roboto Slab', serif;
@@ -888,6 +1335,16 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 799px) {
+    #landing-1 .number p {
+        font-size: 5.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        margin-left: 5%;
+        line-height: 1.5;
+        padding: 10px 15px 0px 15px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing .number p {
         font-size: 5.5em;
         font-family: 'Roboto Slab', serif;
@@ -901,10 +1358,18 @@ hr {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    #landing-1 {
+        /* margin-top: 30px; */
+        height: 350px;
+        background-image: url('../numero-1/portada-b.png');
+        background-position: top center;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
     #landing {
         /* margin-top: 30px; */
         height: 350px;
-        background-image: url('../img/portada-2.png');
+        background-image: url('../numero-2/portada-b.png');
         background-position: top center;
         background-size: 100%;
         background-attachment: fixed;
@@ -1031,6 +1496,121 @@ hr {
 
     /* ------- End call 2020 ------ */
 
+    /* ------- Images Edicion 2 ------ */
+
+    #landing-art-1-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-2-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-3-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-4-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-5-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-6-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-7-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-8-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-08.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-9-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-09.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-10-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-10.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+    #landing-art-11-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-11.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 50%;
+    }
+
+    /* ------- Imagenes edicion 1 --------- */
+
     #landing-art-1 {
         /* margin-top: 30px; */
         height: 330px;
@@ -1119,10 +1699,27 @@ hr {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    #landing-1 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../numero-1/portada-b.png');
+        background-position: top center;
+        background-size: 120%;
+        background-attachment: fixed;
+    }
+    #landing-1 .number p {
+        font-size: 6.5em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 10px 20px 0px 20px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing {
         /* margin-top: 30px; */
         height: 300px;
-        background-image: url('../img/portada-2.png');
+        background-image: url('../numero-2/portada-b.png');
         background-position: top center;
         background-size: 120%;
         background-attachment: fixed;
@@ -1258,6 +1855,121 @@ hr {
 
     /* ------- End call 2020 ------ */
 
+    /* ------- Images Edicion 2 ------ */
+
+    #landing-art-1-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 75%;
+    }
+    #landing-art-2-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 75%;
+    }
+    #landing-art-3-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 70%;
+    }
+    #landing-art-4-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 70%;
+    }
+    #landing-art-5-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 65%;
+    }
+    #landing-art-6-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 65%;
+    }
+    #landing-art-7-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 65%;
+    }
+    #landing-art-8-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-08.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 65%;
+    }
+    #landing-art-9-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-09.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 65%;
+    }
+    #landing-art-10-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-10.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 65%;
+    }
+    #landing-art-11-2 {
+        /* margin-top: 30px; */
+        height: 330px;
+        background-image: url('../img/art-2/ilustra-cife-2021-11.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 65%;
+    }
+
+    /* ------- Imagenes edicion 1 --------- */
+
     #landing-art-1 {
         /* margin-top: 30px; */
         height: 330px;
@@ -1354,10 +2066,27 @@ hr {
         font-size: 1em;
         color: #333;
     }
+    #landing-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../numero-1/portada-b.png');
+        background-position: top center;
+        background-size: 120%;
+        background-attachment: fixed;
+    }
+    #landing-1 .number p {
+        font-size: 3.1em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 10px 20px 0px 20px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing {
         margin-top: 30px;
         height: 300px;
-        background-image: url('../img/portada-2.png');
+        background-image: url('../numero-2/portada-b.png');
         background-position: top center;
         background-size: 120%;
         background-attachment: fixed;
@@ -1494,6 +2223,121 @@ hr {
 
     /* ------- End call 2020 ------ */
 
+    /* ------- Images Edicion 2 ------ */
+
+    #landing-art-1-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 110%;
+    }
+    #landing-art-2-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-3-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-4-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 110%;
+    }
+    #landing-art-5-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-6-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-7-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-8-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-08.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-9-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-09.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-10-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-10.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-11-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-11.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+
+    /* ------- Imagenes edicion 1 --------- */
+
     #landing-art-1 {
         margin-top: 30px;
         height: 300px;
@@ -1595,10 +2439,27 @@ hr {
         font-size: 1em;
         color: #333;
     }
+    #landing-1 {
+        margin-top: 30px;
+        height: 300px;
+        background-image: url('../numero-1/portada-b.png');
+        background-position: top center;
+        background-size: 150%;
+        background-attachment: fixed;
+    }
+    #landing-1 .number p {
+        font-size: 3.1em;
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        line-height: 1.5;
+        padding: 10px 20px 0px 20px;
+        color: #333;
+        background:#fdf202;
+    }
     #landing {
         margin-top: 30px;
         height: 300px;
-        background-image: url('../img/portada-2.png');
+        background-image: url('../numero-2/portada-b.png');
         background-position: top center;
         background-size: 150%;
         background-attachment: fixed;
@@ -1734,6 +2595,121 @@ hr {
     }
 
     /* ------- End call 2020 ------ */
+
+    /* ------- Images Edicion 2 ------ */
+
+    #landing-art-1-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-01.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 110%;
+    }
+    #landing-art-2-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-02.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-3-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-03.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-4-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-04.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 110%;
+    }
+    #landing-art-5-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-05.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-6-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-06.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-7-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-07.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-8-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-08.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-9-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-09.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-10-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-10.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+    #landing-art-11-2 {
+        /* margin-top: 30px; */
+        height: 300px;
+        background-image: url('../img/art-2/ilustra-cife-2021-11.svg');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #fdf202;
+        background-size: 100%;
+    }
+
+    /* ------- Imagenes edicion 1 --------- */
 
     #landing-art-1 {
         margin-top: 30px;
